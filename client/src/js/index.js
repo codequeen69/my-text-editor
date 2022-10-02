@@ -41,6 +41,6 @@ if (typeof editor === 'undefined') {
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./src-sw.js');
+    navigator.serviceWorker.register('./service-worker.js');
   })};
 
